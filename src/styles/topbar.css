@@ -6,6 +6,7 @@
   top: 0;
   font-family: "Roboto", sans-serif;
   display: flex;
+  z-index: 999;
 }
 
 .topLeft,
