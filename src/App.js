@@ -1,12 +1,14 @@
 import React from "react";
 import TopBar from "./components/TopBar";
-import Home from "./pages/Home";
+// import Home from "./pages/Home";
+import Single from "./components/Single";
 
 const App = () => {
   return (
     <div>
       <TopBar />
-      <Home />
+      <Single />
+      {/* <Home /> */}
     </div>
   );
 };
