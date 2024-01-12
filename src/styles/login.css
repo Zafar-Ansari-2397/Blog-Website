@@ -1,0 +1,43 @@
+.login {
+  height: calc(100vh - 50px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: linear-gradient(255, 255, 255, 0.5)
+    url("https://images.pexels.com/photos/66284/winter-nature-season-trees-66284.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1");
+  background-size: cover;
+}
+.loginTitle {
+  font-size: 50px;
+}
+.loginForm {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.loginForm > label {
+  margin: 10px 0;
+}
+.loginInput {
+  padding: 10px;
+  background-color: #fff;
+  border: none;
+}
+.loginButton {
+  margin-top: 20px;
+  cursor: pointer;
+  background-color: lightcoral;
+  border: none;
+  color: white;
+}
+.loginRegisterButton {
+  position: absolute;
+  top: 60px;
+  right: 20px;
+  background-color: teal;
+  cursor: pointer;
+  border: none;
+  padding: 10px;
+  color: white;
+}
